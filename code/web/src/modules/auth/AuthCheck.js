@@ -7,10 +7,11 @@ import PropTypes from 'prop-types'
 // App Imports
 import crate from '../../setup/routes/crate'
 import admin from '../../setup/routes/admin'
+import home from '../../setup/routes/home'
 
 // Component
 const AuthCheck = (props) => (
-  props.user.isAuthenticated ? (props.user.details.role === 'ADMIN' ? <Redirect to={admin.dashboard.path}/> : <Redirect to={crate.list.path}/>) : ''
+  props.user.isAuthenticated ? (props.user.details.role === 'ADMIN' ? <Redirect to={admin.dashboard.path}/> : <Redirect to={home.home.path}/>) : ''
 )
 
 // Component Properties

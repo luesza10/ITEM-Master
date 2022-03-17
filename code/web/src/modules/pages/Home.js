@@ -33,7 +33,7 @@ const Home = (props) => (
     }}>
       {/* SEO */}
       <Helmet>
-        <title>Monthly supply of clothes and accessories for Men and Women - Crate</title>
+        <title>ITEMGAME_MASTER ตลาดกลาง ซื้อ - ขาย</title>
       </Helmet>
 
       {/* Content */}
