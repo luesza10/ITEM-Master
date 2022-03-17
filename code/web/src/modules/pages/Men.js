@@ -50,10 +50,10 @@ const Men = (props) => (
 
     {/* Right Content */}
     <GridCell style={{ textAlign: 'center' }}>
-      <H2 font="secondary">Monthly crates for Men</H2>
+      <H2 font="secondary">Game</H2>
 
       <H5 style={{ marginTop: '0.5em' }}>
-        Save time. Look great. The personal styling service customized to your fit, lifestyle & spending preferences.
+        No problem, through the middle, payment in all channels, safe, all impressive services..
       </H5>
 
       {/* Call to action */}
